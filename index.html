@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mako@ug - Business Service</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+                }
+                header{
+                    background: green;
+                    color: #fff;
+                    padding: 1px 50px;
+                    position: fixed;
+                    display: flex;
+                    width: 100%;
+                    z-index: 1000;
+                    align-items: center;
+    
+
+                }
+                footer{
+                    background: #333;
+                    color: #fff;
+                    padding: 1rem;
+                }
+                header nav a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .hero {
+                    background: #f4f4f4;
+                    padding: 15rem;
+                    text-align: center;
+                    background-image: url(https://img.hobbyfarms.com/pumpkin_patch_business.jpg);
+                }
+                section {
+                    padding: 2rem;
+                }
+                .service-grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1rem;
+                }
+                .service {
+                    background: #8f8f91;
+                    padding: 1rem;
+                    border-radius: 15px;
+                    border-color: black;
+
+                }
+                .footer {
+                    background: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 1rem;
+                    text-decoration: none;
+                    display: flex;
+
+                }
+            button{
+            background-color: blue;
+            font-size: 25px;
+            border-radius: 20px;
+            color: rgb(149, 214, 18);
+            padding: 14px;
+            margin: 8px;
+            font-size: 20px; 
+            cursor: pointer; 
+            border: none;
+            text-decoration: none;
+            text-align: right;
+            margin-left: 70px;
+        }
+    button :hover{
+            color: rgb(214, 214, 228);
+            background-color: yellow;
+            color: red;
+            text-shadow: 0 1px 0 #b7b7b7;
+        }
+        nav :hover{
+            transition-duration: 2s;
+        }
+        h1,h2,h3,p {
+            text-align: center;
+            font-size: 25px;
+        }
+       h2{
+        color: blue;
+       }
+       h3{
+        color: blue;
+       }
+
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <header> 
+        <nav>
+            <ul>
+                <button><a href="#home">Home</a></button>
+                <button><a href="#about">About</a></button>
+                <button><a href="#service">Service</a></button>
+                <button><a href="#contact">Contact</a></button>
+            </ul>
+        </nav>
+    </header>
+    <!--Hero Section-->
+    <section id="home"
+        class="hero">
+        <h1 style="color: #f4f4f4;">Welcome to Mako@ug Entreprises</h1>
+        <p style="color: #e2e2e2;">Your partner in business solution for pumpkins</p>
+    </section>
+    <button ><a href="learn more" style="color: red;">learn more</a></button>
+    <!--About Section-->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide top-notch business services in Uganda.</p>
+    </section>
+    <!--Service Section-->
+    <section id="service">
+        <h2>Our Services</h2>
+        <p>We improve on the demand of pumpkins by selling,buying and teaching people about them </p>
+        <div
+            class="service-grid">
+            <div
+               class="service">
+               <h3>Consulting</h3>
+               <p>Expert in pumpkin buying and selling</p>
+               <p>Expert advice for your service.</p>
+               <p>Expert in research on pumpkin production</p>
+            </div>
+        <div
+        class="service">
+        <h3>Development</h3>
+        <p>Building solutions for growth of pumpkins in Uganda</p>
+         </div>
+         </div>
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+        <h2>Get In touch</h2>
+        <p>Email: makokhashedrack3@gmail.com</p>
+        <p>Phone: +256 746 888 919 |0787152028</p>
+    </section>
+    <footer>
+       <p> ©© 2026 Mako@ug </p>
+       <a href="about">About</a>
+       <a href="home">Home</a>
+       <a href="service">Service</a>
+    </footer>  
+
+</body>
+</html>
