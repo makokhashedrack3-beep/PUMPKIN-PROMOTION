@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mako@ug - Business Service</title>
-    <style>
-        body{
-            font-family: Arial,sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
-                }
-                header {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mako@ug - Business Service</title>
+  <style>
+    body{
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    }
+    header {
       background-color: #b81111;
       color: #fff;
       padding: 20px;
@@ -36,153 +36,165 @@
     }
     header nav a {
       color: #fff;
-      text-decoration: none;
+      text-decoration: none;}
+    
+    footer{
+      background: #333;
+      color: #fff;
+      padding: 1rem;
     }
     
-
-                }
-                footer{
-                    background: #333;
-                    color: #fff;
-                    padding: 1rem;
-                }
-                               .hero {
-                    background: #f4f4f4;
-                    padding: 15rem;
-                    text-align: center;
-                    background-image: url(https://img.hobbyfarms.com/pumpkin_patch_business.jpg);
-                }
-                section {
-                    padding: 2rem;
-                }
-                .service-grid {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    gap: 1rem;
-                }
-                .service {
-                    background: #8f8f91;
-                    padding: 1rem;
-                    border-radius: 15px;
-                    border-color: black;
-
-                }
-                .footer {
-                    background: #333;
-                    color: #fff;
-                    text-align: center;
-                    padding: 1rem;
-                    text-decoration: none;
-                    display: flex;
-
-                }
-            button{
-            background-color: blue;
-            font-size: 25px;
-            border-radius: 20px;
-            color: rgb(149, 214, 18);
-            padding: 14px;
-            margin: 8px;
-            font-size: 20px; 
-            cursor: pointer; 
-            border: none;
-            text-decoration: none;
-            text-align: right;
-            margin-left: 70px;
-        }
+    .hero {
+      background: #f4f4f4;
+      padding: 15rem;
+      text-align: center;
+      background-image: url(https://img.hobbyfarms.com/pumpkin_patch_business.jpg);
+    }
+    section {
+      padding: 2rem;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .service {
+      background: #8f8f91;
+      padding: 1rem;
+      border-radius: 15px;
+      border-color: black;
+    }
+    .footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      text-decoration: none;
+      display: flex;
+    }
+    button{
+      background-color: blue;
+      font-size: 25px;
+      border-radius: 20px;
+      color: rgb(149, 214, 18);
+      padding: 14px;
+      margin: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+      text-align: right;
+      margin-left: 70px;
+    }
     button :hover{
-            color: rgb(214, 214, 228);
-            background-color: yellow;
-            color: red;
-            text-shadow: 0 1px 0 #b7b7b7;
-        }
-        nav ul:hover{
-            transition-duration: 2s;
-        }
-        h1,h2,h3,p {
-            text-align: center;
-            font-size: 25px;
-        }
-        }
-        ul{
-            space-between: 5m;
-                text-align: center;
+      color: rgb(214, 214, 228);
+      background-color: yellow;
+      color: red;
+      text-shadow: 0 1px 0 #b7b7b7;
+    }
+    nav ul:hover{
+      transition-duration: 2s;
+    }
+    h1,h2,h3,p {
+      text-align: center;
+      font-size: 25px;
+    }
     .contact-info {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-       h2{
-        color: blue;
-       }
-       h3{
-        color: blue;
-       }
-
-    </style>
+    h2{
+      color: blue;
+    }
+    h3{
+      color: blue;
+    }
+    .search-container {
+      display: flex;
+      align-items: center;
+    }
+    .search-container input[type="search"] {
+      padding: 5px;
+      font-size: 14px;
+      border: none;
+      border-radius: 10px 0 0 10px;
+      width: 200px;
+    }
+  </style>
 </head>
 <body>
-    <!--Header-->
-    <header> 
-        <nav>
-            <ul>
-               <li> <a href="#home">Home</a></li>
-                 <li><a href="#about">About</a></li>
-                  <li><a href="#service">Service</a></li>
-                   <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--Hero Section-->
-    <section id="home"
-        class="hero">
-        <h1 style="color: #f4f4f4;">Welcome to Mako@ug Entreprises</h1>
-        <p style="color: #e2e2e2;">Your partner in business solution for pumpkins</p>
-    </section>
-    <button ><a href="learn more" style="color: red;">learn more</a></button>
-    <button ><a href=" https://makokhashedrack3-beep.github.io/form/" style="color: red;">Join Us</a></button>
-    <!--About Section-->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We provide top-notch business services in Uganda.</p>
-    </section>
-    <!--Service Section-->
-    <section id="service">
-        <h2>Our Services</h2>
-        <p>We improve on the demand of pumpkins by selling,buying and teaching people about them </p>
-        <div
-            class="service-grid">
-            <div
-               class="service">
-               <h3>Consulting</h3>
-               <p>Expert in pumpkin buying and selling</p>
-               <p>Expert advice for your service.</p>
-               <p>Expert in research on pumpkin production</p>
-            </div>
-        <div
-        class="service">
+  <!--Header-->
+  <header>
+    <nav>
+      <ul>
+        <legend style="color: #003366;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger;">Mako3@ug |</legend>
+        <li><a href="#Home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#Projects">Projects</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#Faq">Faq</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="search" id="search" placeholder="Search...">
+    </div>
+  </header>
+  <!--Hero Section-->
+  <section id="home" class="hero">
+    <h1 style="color: #f4f4f4;">Welcome to Mako@ug Entreprises</h1>
+    <p style="color: #e2e2e2;">Your partner in business solution for pumpkins</p>
+  </section>
+  <button ><a href="learn more" style="color: red;">learn more</a></button>
+  <button ><a href=" https://makokhashedrack3-beep.github.io/form/" style="color: red;">Join Us</a></button>
+  <!--About Section-->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide top-notch business services in Uganda.</p>
+  </section>
+  <!--Service Section-->
+  <section id="service">
+    <h2>Our Services</h2>
+    <p>We improve on the demand of pumpkins by selling,buying and teaching people about them </p>
+    <div class="service-grid">
+      <div class="service">
+        <h3>Consulting</h3>
+        <p>Expert in pumpkin buying and selling</p>
+        <p>Expert advice for your service.</p>
+        <p>Expert in research on pumpkin production</p>
+      </div>
+      <div class="service">
         <h3>Development</h3>
         <p>Building solutions for growth of pumpkins in Uganda</p>
-         </div>
-         </div>
-    </section>
-    <!--Contact Section-->
-    <section id="contact">
-      <h2>Get in Touch</h2>
-      <div class="contact-info">
-        <a href="mailto:mak@busogahigh.com?subject=Inquiry%20from%20Busoga%20High%20School%20Website" style="color: #b81111; font-size: 25px;"><i class="fa-solid fa-envelope"></i> mak@busogahigh.com</a>
-        <a href="https://wa.me/256787152028" target="_blank"><i class="fa-brands fa-whatsapp" style="color: white; font-size: 50px; background-color: #27af2c; border-radius: 10px;"></i> Chat with us</a>
-        <a href="tel:+256746888919"><i class="fa-solid fa-phone" style="color: green; font-size: 30px; border-radius: 50px;"></i> +256 746 888 919</a>
-        <a href="https://www.linkedin.com/in/makokhashedrack3@gmail.com" target="_blank"><i class="fa-brands fa-linkedin" style="color: hsl(240, 100%, 50%); font-size: 25px;"></i> makokhashedrack3@gmail.com</a>
       </div>
-    </section>
- 
-    <footer>
-       <p> ©© 2026 Mako@ug </p>
-       <a href="about">About</a>
-       <a href="home">Home</a>
-       <a href="service">Service</a>
-    </footer>  
-
+    </div>
+  </section>
+  <!--Contact Section-->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <a href="mailto:makokhashedrack524@gmail.com?subject=Inquiry%20from%20Busoga%20High%20School%20Website" style="color: #b81111; font-size: 25px;"><i class="fa-solid fa-envelope"></i> mak@busogahigh.com</a>
+      <a href="https://wa.me/256787152028" target="_blank"><i class="fa-brands fa-whatsapp" style="color: white; font-size: 30px; background-color: #27af2c;"></i> Chat with us</a>
+      <a href="tel:+256746888919"><i class="fa-solid fa-phone" style="color: green; font-size: 30px;"></i> +256 746 888 919</a>
+      <a href="https://www.linkedin.com/in/makokhashedrack3@gmail.com" target="_blank"><i class="fa-brands fa-linkedin" style="color: hsl(240, 100%, 50%); font-size: 25px;"></i> makokhashedrack3@gmail.com</a>
+    </div>
+  </section>
+  </section>
+  <footer>
+    <p> ©© 2026 Mako@ug </p>
+    <a href="about">About</a>
+    <a href="home">Home</a>
+    <a href="service">Service</a>
+  </footer>
+  <script>
+    document.querySelector('.search-container input[type="search"]').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        var searchTerm = this.value;
+        var url = "https://www.google.com/search?q=" + searchTerm;
+        window.open(url, "_blank");
+      }
+    });
+  </script>
 </body>
 </html>
